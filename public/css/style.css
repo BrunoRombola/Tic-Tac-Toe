@@ -1,0 +1,47 @@
+body{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.main-content{
+    flex-grow: 0.98;
+}
+.menu{
+    margin-left: 30px;   
+}
+.menu a{
+    font-size: 22px;
+    padding-right: 10px;
+}
+.grid {
+    padding-top: 40px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: [x0] 1fr [x1] 1fr [x2] 1fr;
+    grid-template-rows: [y0] 2fr [y1] 2fr [y2] 2fr;
+  }
+.cell{
+    color: white;
+    display:block;
+    border: 2px solid grey;
+}
+.cell button{
+    background-color: white;
+    padding: 70px;
+    align-items: center;
+}
+button.O{
+    font-size: 80px;
+    padding: 24px 38px;
+    background-color: white;
+    color: black;
+    align-items: center;
+}
+button.X{
+    font-size: 80px;
+    padding: 24px 43px;
+    background-color: white;
+    color: black;
+    align-items: center;
+}
